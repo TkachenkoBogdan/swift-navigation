@@ -27,6 +27,10 @@ let package = Package(
       name: "AppKitNavigation",
       targets: ["AppKitNavigation"]
     ),
+     .library(
+      name: "UIKitNavigationShim",
+      targets: ["UIKitNavigationShim"]
+    ),
   ],
   dependencies: [
     .package(url: "https://github.com/apple/swift-collections", from: "1.0.0"),
